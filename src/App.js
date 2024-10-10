@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+//import Button from './components/Button';
 import './App.css';
+//import Nav from './components/Nav';
+import Banner from './components/Banner';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Udara was here</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="App bg-blue-400">
+      {/*<img src={logo} className="" alt="logo" />*/}
+      <Sidebar/>
+      <Banner/>
     </div>
+    <div className='h-[200px] bg-white'>
+        hi hi hi
+      </div>
+    </>
   );
 }
 
