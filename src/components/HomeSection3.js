@@ -21,7 +21,7 @@ function HomeSection3() {
         });
     };
     return (
-        <div className="h-[100vh] flex items-center justify-center px-3 py-12">
+        <div className="h-[100vh] flex items-center justify-center px-3 py-12 max-lg:h-fit">
             <div className="flex flex-col gap-3 w-full">
                 <span className="g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
                     Communities
@@ -43,7 +43,7 @@ function HomeSection3() {
                     </span>
                 </span>
                 <div id="scroll-container" className="overflow-x-scroll no-scrollbar cursor-grab select-none" ref={scrollContainerRef}>
-                    <span className="flex w-[300vw] gap-5 py-3">
+                    <span className="flex w-fit gap-5 py-3">
                         <CardType1
                             cardHeader={"The Heights Country Club & Wellness"}
                             cardHeaderClasses={"text-2xl"}
@@ -52,7 +52,7 @@ function HomeSection3() {
                             cardText2={"3 & 4 Bedroom Townhouses and 4 Bedroom Villas"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2024/06/THE-HEIGHT-_320X415.jpeg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -64,7 +64,7 @@ function HomeSection3() {
                             cardText2={"Apartments, Townhouses and Sea Front-Homes"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2024/05/Community-Featured-Image-portrait-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -76,7 +76,7 @@ function HomeSection3() {
                             cardText2={"Villas and Mansions"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2023/06/OASIS_320-x-415-320x415-1-320x415.jpg.webp"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -88,7 +88,7 @@ function HomeSection3() {
                             cardText2={"-"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/DUBAI_MARINA_COMMUNITY-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -100,7 +100,7 @@ function HomeSection3() {
                             cardText2={"3 to 6 BEDROOM VILLAS"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/DHE_COMMUNITY_HERO-resize-scaled-1-320x415.jpeg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -112,7 +112,7 @@ function HomeSection3() {
                             cardText2={"Apartments and Villas"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/DUBAI_CREEK_HARBOUR_HERO-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -124,7 +124,7 @@ function HomeSection3() {
                             cardText2={"3 & 4 Bedroom Villas"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_DubaiRanchesMP_CGI07_04-3-scaled-1-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -136,7 +136,7 @@ function HomeSection3() {
                             cardText2={"3 & 4 Bedroom Townhouses"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_DubaiValley_CGI03_resize-scaled-1-320x415.jpeg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -148,7 +148,7 @@ function HomeSection3() {
                             cardText2={"1 to 6 Bedroom Apartments"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/AHD_BRAND_VIEW-FROM-ADDRESS-FOUNTAIN-VIEWS_AMBIENT_HR_01-resize-scaled-1-320x415.jpeg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -160,7 +160,7 @@ function HomeSection3() {
                             cardText2={"3 & 4 Bedroom Villas"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/ES_View_13-scaled-1-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -172,7 +172,7 @@ function HomeSection3() {
                             cardText2={"Apartments and Villas"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/BENOY_DubaiHarbour_CGI12_02-resize-scaled-1-320x415.jpeg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />
@@ -184,7 +184,7 @@ function HomeSection3() {
                             cardText2={"1, 2 & 3 Bedroom Apartments"}
                             cardText2Classes={"text-xs g-font-2 p-1 tracking-widest"}
                             cardImage={"https://cdn.emaar.com/wp-content/uploads/2021/08/EMAAR_MinaRashid_CGI19_06-scaled-1-320x415.jpg"}
-                            cardImageClasses={"h-2/3"}
+                            cardImageClasses={"h-[400px]"}
                             btnText={"nobtn"}
                             extraClasses={"w-[300px] h-fit py-1 gap-3"}
                         />

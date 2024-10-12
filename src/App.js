@@ -7,6 +7,7 @@ import Sidebar from './components/Sidebar';
 import HomeSection1 from './components/HomeSection1';
 import HomeSection2 from './components/HomeSection2';
 import HomeSection3 from './components/HomeSection3';
+import HomeSection4 from './components/HomeSection4';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <HomeSection1/>
       <HomeSection2/>
       <HomeSection3/>
+      <HomeSection4/>
     </>
   );
 }

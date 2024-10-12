@@ -6,7 +6,7 @@ function CardType1({ cardHeader, cardHeaderClasses, cardText1, cardText1Classes,
             <span className="h-1/2 overflow-hidden w-full group">
                 <img className={`w-full object-cover transform transition-transform duration-700 ease-in-out group-hover:scale-110 ${cardImageClasses}`} src={cardImage} alt={cardHeader}></img>
             </span>
-            <h1 className={`uppercase text-center max-lg:text-3xl max-md:text-2xl ${cardHeaderClasses}`}>{cardHeader}</h1>
+            <h1 className={`uppercase text-center ${cardHeaderClasses}`}>{cardHeader}</h1>
             <span className="flex flex-col">
                 <p className={`text-center text-gray-600 ${cardText1Classes}`}>{cardText1}</p>
                 <p className={`text-center text-gray-600 ${cardText2Classes}`}>{cardText2}</p>
