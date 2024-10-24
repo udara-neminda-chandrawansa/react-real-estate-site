@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-real-estate-site/static/css/main.6ab19825.css",
-    "main.js": "/react-real-estate-site/static/js/main.21f7dd29.js",
+    "main.css": "/react-real-estate-site/static/css/main.ac5b262f.css",
+    "main.js": "/react-real-estate-site/static/js/main.882ed77e.js",
     "static/js/453.6e1f81f2.chunk.js": "/react-real-estate-site/static/js/453.6e1f81f2.chunk.js",
     "static/media/Optima-Regular.ttf": "/react-real-estate-site/static/media/Optima-Regular.cfda35b487cf8c4e7da5.ttf",
     "static/media/google-font-2.ttf": "/react-real-estate-site/static/media/google-font-2.7be2cfe79d3aed1b2b36.ttf",
@@ -9,12 +9,12 @@
     "static/media/google-font-1.ttf": "/react-real-estate-site/static/media/google-font-1.4facf29f0ca728b22bf4.ttf",
     "static/media/OPTIMA_B.ttf": "/react-real-estate-site/static/media/OPTIMA_B.5ca1bff69606f684113b.ttf",
     "index.html": "/react-real-estate-site/index.html",
-    "main.6ab19825.css.map": "/react-real-estate-site/static/css/main.6ab19825.css.map",
-    "main.21f7dd29.js.map": "/react-real-estate-site/static/js/main.21f7dd29.js.map",
+    "main.ac5b262f.css.map": "/react-real-estate-site/static/css/main.ac5b262f.css.map",
+    "main.882ed77e.js.map": "/react-real-estate-site/static/js/main.882ed77e.js.map",
     "453.6e1f81f2.chunk.js.map": "/react-real-estate-site/static/js/453.6e1f81f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ab19825.css",
-    "static/js/main.21f7dd29.js"
+    "static/css/main.ac5b262f.css",
+    "static/js/main.882ed77e.js"
   ]
 }
