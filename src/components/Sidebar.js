@@ -11,13 +11,13 @@ function Sidebar() {
       <Button displayText="X" onClick={handleClosing} />
       <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>
-          <a href="/about" className="p-1 flex">
+          <a href="/react-real-estate-site/about" className="p-1 flex">
             About Us
           </a>{" "}
         </li>
         <li>
           <a
-            href="/latest-launches"
+            href="/react-real-estate-site/latest-launches"
             className="p-1 border-t-[1px] border-t-gray-300 flex"
           >
             Latest Launches

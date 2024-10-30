@@ -35,7 +35,7 @@ function Nav({theme, nav_burger_color_css}) {
         </span>
         <h2 className="flex items-center px-6 text-3xl">
           <Link
-            href="/"
+            href="/react-real-estate-site"
           >
             UNC
           </Link>
@@ -43,7 +43,7 @@ function Nav({theme, nav_burger_color_css}) {
         <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
           <li>
             <Link
-              href="/about"
+              href="/react-real-estate-site/about"
               className="p-1 underline-offset-[20px] hover:underline"
             >
               About Us
@@ -51,7 +51,7 @@ function Nav({theme, nav_burger_color_css}) {
           </li>
           <li>
             <a
-              href="/latest-launches"
+              href="/react-real-estate-site/latest-launches"
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Latest Launches
