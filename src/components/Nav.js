@@ -8,7 +8,7 @@ const handleOpening = () => {
 
 function Nav({theme, nav_burger_color_css}) {
   return (
-    <nav className="flex justify-between p-2 z-10">
+    <nav className="flex justify-between p-2 z-10 w-full">
       {/*left side*/}
       <span className="flex">
         <span className="hidden max-lg:flex">
@@ -51,7 +51,7 @@ function Nav({theme, nav_burger_color_css}) {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="/latest-launches"
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Latest Launches

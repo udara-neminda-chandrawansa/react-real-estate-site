@@ -7,7 +7,7 @@ const handleClosing = () => {
 
 function Sidebar() {
   return (
-    <div className="z-10 bg-white hidden max-sm:text-sm" id="sidebar">
+    <div className="z-10 bg-white hidden max-sm:text-sm h-[100vh]" id="sidebar">
       <Button displayText="X" onClick={handleClosing} />
       <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>
@@ -17,7 +17,7 @@ function Sidebar() {
         </li>
         <li>
           <a
-            href="https://www.google.com"
+            href="/latest-launches"
             className="p-1 border-t-[1px] border-t-gray-300 flex"
           >
             Latest Launches

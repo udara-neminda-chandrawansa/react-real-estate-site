@@ -65,51 +65,53 @@ function About() {
       {/*banner + nav*/}
       <div className="text-black flex h-[90vh] w-[100vw]">
         <Sidebar></Sidebar>
-        {/*banner*/}
         <div className="flex flex-col h-fit">
+          {/*nav*/}
           <span className="p-1">
-            {/*nav*/}
             <Nav theme={"dark"}></Nav>
           </span>
-          <img
-            src="https://cdn.properties.emaar.com/wp-content/uploads/2020/07/BK_2600x1470-scaled-1-1620x740.jpg"
-            alt="about"
-          ></img>
-          {/*floating white square with text*/}
-          <div className="absolute top-[450px] w-full h-fit max-[992px]:relative max-[992px]:top-5">
-            <div className="bg-white w-2/3 max-[992px]:w-full p-4 py-12 h-fit flex flex-col justify-center">
-              <span className="p-1 g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
-                Overview
-                <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
-              </span>
-              <h1 className="text-5xl uppercase max-sm:text-3xl">
-                About UNC Properties
-              </h1>
-              <p className="g-font-1 text-lg py-4 max-sm:text-sm">
-                With a net asset value of AED 177.5 Bn (USD 48.3 Bn)*, UNC
-                Properties is among the most admired and valuable real estate
-                development companies in the world. UNC, which has established
-                competencies in real estate, retail and shopping malls,
-                hospitality, and leisure, shapes new lifestyles through its
-                commitment to design excellence, build quality, and timely
-                delivery.
-              </p>
-              <p className="g-font-1 text-sm">
-                *As of 31st December 2023, and based on the valuation of assets
-                done by third party valuer..
-              </p>
+          {/*banner (img + overview text)*/}
+          <div className="">
+            <img
+              src="https://cdn.properties.emaar.com/wp-content/uploads/2020/07/BK_2600x1470-scaled-1-1620x740.jpg"
+              alt="about"
+            ></img>
+            {/*floating white square with text*/}
+            <div className="absolute top-[450px] w-full h-fit max-[992px]:relative max-[992px]:top-5">
+              <div className="bg-white w-2/3 max-[992px]:w-full p-4 py-12 h-fit flex flex-col justify-center">
+                <span className="p-1 g-font-2 text-xs tracking-widest text-gray-600 uppercase flex items-center gap-5">
+                  Overview
+                  <div className="w-[120px] border-t-[1px] border-t-gray-400"></div>
+                </span>
+                <h1 className="text-5xl uppercase max-sm:text-3xl">
+                  About UNC Properties
+                </h1>
+                <p className="g-font-1 text-lg py-4 max-sm:text-sm">
+                  With a net asset value of AED 177.5 Bn (USD 48.3 Bn)*, UNC
+                  Properties is among the most admired and valuable real estate
+                  development companies in the world. UNC, which has established
+                  competencies in real estate, retail and shopping malls,
+                  hospitality, and leisure, shapes new lifestyles through its
+                  commitment to design excellence, build quality, and timely
+                  delivery.
+                </p>
+                <p className="g-font-1 text-sm">
+                  *As of 31st December 2023, and based on the valuation of
+                  assets done by third party valuer..
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/*owners message*/}
-      <div className="p-4 h-[70vh] max-[992px]:h-[100vh]">
+      <div className="p-4 mt-[150px] h-[70vh] max-[992px]:h-[100vh]">
         <img
           src="https://cdn.properties.emaar.com/wp-content/uploads/2022/04/chairman-image-1620x740-1-1620x740.png"
           alt="founder"
         ></img>
         {/*floating white square with text*/}
-        <div className="absolute top-[120vh] h-fit max-[992px]:relative max-[992px]:top-5">
+        <div className="absolute top-[140vh] h-fit max-[992px]:relative max-[992px]:top-5">
           <div className="bg-white w-2/5 max-[992px]:w-full p-8 py-12 h-fit flex flex-col justify-center gap-3">
             <h1 className="text-2xl uppercase font-medium">
               "WE ARE SHARPENING OUR STRATEGY TO BE ONE OF THE WORLD'S MOST
@@ -778,7 +780,13 @@ function About() {
           />
         </span>
         <span className="flex justify-center">
-          <Button displayText={"View All Awards"} theme={"dark"} width={"[300px]"} extraClasses={"bg-gray-400 border-gray-400 text-xs"} extraClasses4Button={"bg-gray-400"}></Button>
+          <Button
+            displayText={"View All Awards"}
+            theme={"dark"}
+            width={"[300px]"}
+            extraClasses={"bg-gray-400 border-gray-400 text-xs"}
+            extraClasses4Button={"bg-gray-400"}
+          ></Button>
         </span>
       </div>
       <Footer></Footer>
