@@ -268,7 +268,7 @@ function Banner() {
     <div
       className={`w-full flex flex-col justify-between p-1 h-[100vh] bg-cover ${items[3]} transition-all delay-75 text-white`}
     >
-      <Nav />
+      <Nav nav_burger_color_css={"text-white"}/>
       {/*shadow*/}
       <div className="absolute inset-0 bg-gradient-to-br from-[#1a2e33] to-transparent"></div>
       {/*carousel + banner*/}
@@ -661,7 +661,7 @@ function Banner() {
                         "Arabian Ranches III",
                         "The Valley",
                         "Downtown Dubai",
-                        "Emaar South",
+                        "UNC South",
                       ].map((label, index) => (
                         <Field
                           className="flex items-center gap-3 w-1/2 p-2"

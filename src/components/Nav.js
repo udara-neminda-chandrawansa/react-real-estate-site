@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import Button from "./Button";
 
 const handleOpening = () => {
@@ -5,7 +6,7 @@ const handleOpening = () => {
   document.getElementById("sidebar").style.display = "inline-block";
 };
 
-function Nav() {
+function Nav({theme, nav_burger_color_css}) {
   return (
     <nav className="flex justify-between p-2 z-10">
       {/*left side*/}
@@ -28,19 +29,25 @@ function Nav() {
               </svg>
             }
             theme="transparent"
-            extraClasses={"text-white"}
+            extraClasses={nav_burger_color_css}
             onClick={handleOpening}
           />
         </span>
-        <h2 className="flex items-center px-6 text-3xl">UNC</h2>
+        <h2 className="flex items-center px-6 text-3xl">
+          <Link
+            href="/"
+          >
+            UNC
+          </Link>
+        </h2>
         <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
           <li>
-            <a
-              href="https://www.google.com"
+            <Link
+              href="/about"
               className="p-1 underline-offset-[20px] hover:underline"
             >
               About Us
-            </a>{" "}
+            </Link>
           </li>
           <li>
             <a
@@ -69,7 +76,7 @@ function Nav() {
         </ul>
       </span>
       {/*right side*/}
-      <span className="flex max-sm:hidden">
+      <span className="flex max-sm:hidden mr-5">
         <ul className="flex gap-5 p-3 uppercase text-xs optima-bold tracking-widest">
           <li>
             <span className="p-1 inline-block lang-link">
@@ -132,7 +139,7 @@ function Nav() {
             </a>
           </li>
         </ul>
-        <Button displayText="Get In Touch" url="https://www.google.com" />
+        <Button displayText="Get In Touch" url="https://www.google.com" theme={theme}/>
       </span>
     </nav>
   );

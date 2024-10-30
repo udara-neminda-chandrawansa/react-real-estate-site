@@ -192,7 +192,7 @@ function Footer() {
               <a href="https://www.google.com/">Press Releases</a>
             </li>
             <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">Emaar Blogs</a>
+              <a href="https://www.google.com/">UNC Blogs</a>
             </li>
             <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
               <a href="https://www.google.com/">Mortgage Calculator</a>
@@ -201,7 +201,7 @@ function Footer() {
               <a href="https://www.google.com/">Scam Alerts</a>
             </li>
             <li className="py-1 hover:text-blue-300 delay-75 transition-all w-fit">
-              <a href="https://www.google.com/">Emaar Sustainability</a>
+              <a href="https://www.google.com/">UNC Sustainability</a>
             </li>
           </ul>
         </div>

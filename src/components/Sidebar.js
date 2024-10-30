@@ -7,11 +7,11 @@ const handleClosing = () => {
 
 function Sidebar() {
   return (
-    <div className="w-1/3 z-10 bg-white hidden max-sm:text-sm" id="sidebar">
+    <div className="z-10 bg-white hidden max-sm:text-sm" id="sidebar">
       <Button displayText="X" onClick={handleClosing} />
-      <ul className="flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
+      <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>
-          <a href="https://www.google.com" className="p-1 flex">
+          <a href="/about" className="p-1 flex">
             About Us
           </a>{" "}
         </li>

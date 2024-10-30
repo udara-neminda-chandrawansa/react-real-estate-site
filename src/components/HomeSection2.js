@@ -15,8 +15,8 @@ function HomeSection2() {
         </h1>
         <p className="text-lg g-font-1 text-gray-600">
           Our properties, located in prime areas, boast unique designs and
-          aspirational lifestyles within vibrant Emaar communities, all
-          seamlessly managed by Emaar Community Management's dedicated team.
+          aspirational lifestyles within vibrant UNC communities, all
+          seamlessly managed by UNC Community Management's dedicated team.
         </p>
         <span className="w-full max-[992px]:hidden">
           <Button
@@ -79,8 +79,8 @@ function HomeSection2() {
           />
           <CardType2
             cardUrl={"https://www.google.com"}
-            cardText1={"Greenridge at Emaar South"}
-            cardText2={"Emaar South"}
+            cardText1={"Greenridge at UNC South"}
+            cardText2={"UNC South"}
             cardImage={
               "https://cdn.properties.emaar.com/wp-content/uploads/2024/09/HERO_1620X832_1-3-706x385.jpg"
             }

@@ -133,7 +133,7 @@ function HomeSection3() {
             <CardType1
               cardHeader={"Dubai Marina"}
               cardHeaderClasses={"text-2xl"}
-              cardText1={"A path-breaking waterfront project by Emaar"}
+              cardText1={"A path-breaking waterfront project by UNC"}
               cardText1Classes={
                 "uppercase text-xs g-font-2 tracking-widest p-1"
               }
@@ -227,7 +227,7 @@ function HomeSection3() {
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Emaar South"}
+              cardHeader={"UNC South"}
               cardHeaderClasses={"text-2xl"}
               cardText1={"Local Community With A Global Gateway"}
               cardText1Classes={
@@ -243,7 +243,7 @@ function HomeSection3() {
               extraClasses={"w-[300px] h-fit py-1 gap-3"}
             />
             <CardType1
-              cardHeader={"Emaar Beachfront"}
+              cardHeader={"UNC Beachfront"}
               cardHeaderClasses={"text-2xl"}
               cardText1={"PRIVATE BEACH LIVING"}
               cardText1Classes={

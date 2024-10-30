@@ -7,6 +7,7 @@ function CardType2({
   cardImage,
   cardImageMd,
   extraClasses,
+  blackLinePClasses
 }) {
   const [isMdScreen, setIsMdScreen] = useState(window.innerWidth < 768);
 
@@ -38,7 +39,7 @@ function CardType2({
         <a href={cardUrl} className="w-3/4 max-md:w-fit max-sm:w-1/3">
           {cardText1}
         </a>
-        <p className="w-1/4 px-2 border-l-[1px] border-l-black max-md:w-fit max-sm:w-2/3 max-sm:h-fit">
+        <p className={`w-1/4 px-2 border-l-[1px] border-l-black max-md:w-fit max-sm:w-2/3 max-sm:h-fit ${blackLinePClasses}`}>
           {cardText2}
         </p>
         <div className="relative right-0 border-t-[1px] border-t-gray-400 w-[130px] max-md:absolute max-md:right-3 max-sm:w-[50px]"></div>
