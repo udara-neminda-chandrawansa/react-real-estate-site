@@ -11,11 +11,10 @@ export default function App() {
   };
   return (
     <div className="w-full overflow-hidden">
-      {activePage === "home" && <Landing changeActivePage={changeActivePage} />}
-      {activePage === "about" && <About changeActivePage={changeActivePage} />}
-      {activePage === "latestL" && (
-        <LatestLaunches changeActivePage={changeActivePage} />
-      )}
+      <Route path="/" component={Landing} />
+      <Route path="/react-real-estate-site" component={Landing} />
+      <Route path="/about" component={About} />
+      <Route path="/latest-launches" component={LatestLaunches} />
     </div>
   );
 }

@@ -14,13 +14,22 @@ export default function Sidebar({ changeActivePage }) {
       <Button displayText="X" onClick={handleClosing} />
       <ul className="w-[300px] flex flex-col gap-3 flex-grow p-3 border-t-[1px] border-t-gray-300">
         <li>
+<<<<<<< HEAD
           <p onClick={() => handleLinkClick("about")} className="p-1 flex">
+=======
+          <a href="/react-real-estate-site/about" className="p-1 flex">
+>>>>>>> f898279 (wouter updated again)
             About Us
           </p>
         </li>
         <li>
+<<<<<<< HEAD
           <p
             onClick={() => handleLinkClick("latestL")}
+=======
+          <a
+            href="/react-real-estate-site/latest-launches"
+>>>>>>> f898279 (wouter updated again)
             className="p-1 border-t-[1px] border-t-gray-300 flex"
           >
             Latest Launches

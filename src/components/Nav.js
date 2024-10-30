@@ -37,20 +37,38 @@ export default function Nav({ changeActivePage, theme, nav_burger_color_css }) {
           />
         </span>
         <h2 className="flex items-center px-6 text-3xl">
+<<<<<<< HEAD
           <p onClick={handleLinkClick("home")}>UNC</p>
         </h2>
         <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
           <li>
             <p
               onClick={handleLinkClick("about")}
+=======
+          <Link
+            href="/react-real-estate-site"
+          >
+            UNC
+          </Link>
+        </h2>
+        <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
+          <li>
+            <Link
+              href="/react-real-estate-site/about"
+>>>>>>> f898279 (wouter updated again)
               className="p-1 underline-offset-[20px] hover:underline"
             >
               About Us
             </p>
           </li>
           <li>
+<<<<<<< HEAD
             <p
               onClick={handleLinkClick("latestL")}
+=======
+            <a
+              href="/react-real-estate-site/latest-launches"
+>>>>>>> f898279 (wouter updated again)
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Latest Launches
