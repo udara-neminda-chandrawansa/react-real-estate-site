@@ -1,12 +1,15 @@
-import { Link } from "wouter";
 import Button from "./Button";
 
-const handleOpening = () => {
-  //alert('Button clicked!');
-  document.getElementById("sidebar").style.display = "inline-block";
-};
+export default function Nav({ changeActivePage, theme, nav_burger_color_css }) {
+  const handleOpening = () => {
+    //alert('Button clicked!');
+    document.getElementById("sidebar").style.display = "inline-block";
+  };
 
-function Nav({theme, nav_burger_color_css}) {
+  const handleLinkClick = (page) => () => {
+    changeActivePage(page);
+  };
+
   return (
     <nav className="flex justify-between p-2 z-10 w-full">
       {/*left side*/}
@@ -34,44 +37,38 @@ function Nav({theme, nav_burger_color_css}) {
           />
         </span>
         <h2 className="flex items-center px-6 text-3xl">
-          <Link
-            href="/react-real-estate-site"
-          >
-            UNC
-          </Link>
+          <p onClick={handleLinkClick("home")}>UNC</p>
         </h2>
         <ul className="flex gap-5 p-5 uppercase text-xs optima-bold tracking-wider max-lg:hidden">
           <li>
-            <Link
-              href="/react-real-estate-site/about"
+            <p
+              onClick={handleLinkClick("about")}
               className="p-1 underline-offset-[20px] hover:underline"
             >
               About Us
-            </Link>
+            </p>
           </li>
           <li>
-            <a
-              href="/react-real-estate-site/latest-launches"
+            <p
+              onClick={handleLinkClick("latestL")}
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Latest Launches
-            </a>{" "}
+            </p>{" "}
           </li>
           <li>
-            <a
-              href="https://www.google.com"
+            <p
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Communities
-            </a>{" "}
+            </p>{" "}
           </li>
           <li>
-            <a
-              href="https://www.google.com"
+            <p
               className="p-1 underline-offset-[20px] hover:underline"
             >
               Sustainability
-            </a>{" "}
+            </p>{" "}
           </li>
         </ul>
       </span>
@@ -139,10 +136,12 @@ function Nav({theme, nav_burger_color_css}) {
             </a>
           </li>
         </ul>
-        <Button displayText="Get In Touch" url="https://www.google.com" theme={theme}/>
+        <Button
+          displayText="Get In Touch"
+          url="https://www.google.com"
+          theme={theme}
+        />
       </span>
     </nav>
   );
 }
-
-export default Nav;

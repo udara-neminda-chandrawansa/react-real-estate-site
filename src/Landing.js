@@ -7,12 +7,12 @@ import HomeSection3 from "./components/HomeSection3";
 import HomeSection4 from "./components/HomeSection4";
 import Footer from "./components/Footer";
 
-function Landing() {  
+export default function Landing({changeActivePage}) {  
   return (
     <>
       <div className="flex flex-row h-[100vh] w-[100vw] bg-blue-400">
-        <Sidebar />
-        <Banner />
+        <Sidebar changeActivePage = {changeActivePage}/>
+        <Banner changeActivePage = {changeActivePage}/>
       </div>
       <HomeSection1 />
       <HomeSection2 />
@@ -22,5 +22,3 @@ function Landing() {
     </>
   );
 }
-
-export default Landing;

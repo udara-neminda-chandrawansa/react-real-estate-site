@@ -1,17 +1,22 @@
-import { Route } from "wouter";
+//import { Route } from "wouter";
 import Landing from "./Landing";
 import About from "./About";
 import LatestLaunches from "./LatestLaunches";
+import { useState } from "react";
 
-function App() {  
+export default function App() {
+  const [activePage, setActivePage] = useState("home");
+  const changeActivePage = (page) => {
+    setActivePage(page);
+  };
   return (
     <div className="w-full overflow-hidden">
-      <Route path="/" component={Landing} />
-      <Route path="/react-real-estate-site" component={Landing} />
-      <Route path="/react-real-estate-site/about" component={About} />
-      <Route path="/react-real-estate-site/latest-launches" component={LatestLaunches} />
+      {activePage === "home" && <Landing changeActivePage={changeActivePage} />}
+      {activePage === "about" && <About changeActivePage={changeActivePage} />}
+      {activePage === "latestL" && (
+        <LatestLaunches changeActivePage={changeActivePage} />
+      )}
     </div>
   );
 }
 
-export default App;
