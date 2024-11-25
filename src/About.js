@@ -105,7 +105,7 @@ export default function About() {
         </div>
       </div>
       {/*owners message*/}
-      <div className="p-4 mt-[150px] h-[70vh] max-[992px]:h-[100vh]">
+      <div className="p-4 mt-[150px] h-[70vh] max-[992px]:h-[90vh] max-sm:h-[80vh] max-[992px]:flex flex-col justify-center items-center max-[992px]:mt-0">
         <img
           src="https://cdn.properties.emaar.com/wp-content/uploads/2022/04/chairman-image-1620x740-1-1620x740.png"
           alt="founder"
@@ -130,7 +130,7 @@ export default function About() {
         </div>
       </div>
       {/*who we are*/}
-      <div className="h-[70vh] flex flex-col justify-center gap-4 max-[992px]:h-fit">
+      <div className="h-[70vh] flex flex-col justify-center gap-4 max-[992px]:h-fit max-[992px]:justify-start">
         <h1 className="text-5xl text-center uppercase max-sm:text-3xl">
           who we are
         </h1>
