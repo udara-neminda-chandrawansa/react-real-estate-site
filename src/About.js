@@ -7,7 +7,7 @@ import Sidebar from "./components/Sidebar";
 import Button from "./components/Button";
 import React, { useRef } from "react";
 
-export default function About({changeActivePage}) {
+export default function About() {
   const scrollContainerRef = useRef(null);
 
   // Function to determine active button based on current scroll position
@@ -64,11 +64,11 @@ export default function About({changeActivePage}) {
     <>
       {/*banner + nav*/}
       <div className="text-black flex h-[90vh] w-[100vw]">
-        <Sidebar changeActivePage={changeActivePage}></Sidebar>
+        <Sidebar></Sidebar>
         <div className="flex flex-col h-fit">
           {/*nav*/}
           <span className="p-1">
-            <Nav changeActivePage={changeActivePage} theme={"dark"}></Nav>
+            <Nav theme={"dark"}></Nav>
           </span>
           {/*banner (img + overview text)*/}
           <div>

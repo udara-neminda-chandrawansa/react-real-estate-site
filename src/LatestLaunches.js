@@ -3,7 +3,7 @@ import Footer from "./components/Footer.js";
 import Nav from "./components/Nav.js";
 import Sidebar from "./components/Sidebar.js";
 
-export default function LatestLaunches({changeActivePage}) {
+export default function LatestLaunches() {
   const handleLaunchFilter = (Filter) => {
     const launchSpans = document.querySelectorAll(".launch-span");
     const coming_soons = document.querySelectorAll(".coming-soon");
@@ -60,11 +60,11 @@ export default function LatestLaunches({changeActivePage}) {
   return (
     <>
       <div className="flex">
-        <Sidebar changeActivePage={changeActivePage}></Sidebar>
+        <Sidebar></Sidebar>
         <div className="flex flex-col w-full h-full">
           {/*nav*/}
           <div className="p-1 border-b-[1px] border-b-gray-300">
-            <Nav changeActivePage={changeActivePage} theme={"dark"}></Nav>
+            <Nav theme={"dark"}></Nav>
           </div>
           {/*title + text + filter btns*/}
           <div className="p-4 py-16 flex flex-col gap-10">

@@ -1,7 +1,6 @@
 {
   "name": "react-real-estate-site",
   "version": "0.1.0",
-  "homepage": "https://udara-neminda-chandrawansa.github.io/react-real-estate-site",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^2.1.9",
