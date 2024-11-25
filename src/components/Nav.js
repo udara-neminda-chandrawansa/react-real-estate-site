@@ -66,7 +66,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
         </ul>
       </span>
       {/*right side*/}
-      <span className="flex max-sm:hidden">
+      <span className="flex justify-center items-center max-sm:hidden">
         <ul className="flex gap-5 p-3 uppercase text-xs optima-bold tracking-widest">
           <li>
             <span className="p-1 inline-block lang-link">
