@@ -8,7 +8,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
   };
 
   return (
-    <nav className="flex justify-between p-2 z-10 w-full">
+    <nav className="flex justify-between px-6 z-10 w-full">
       {/*left side*/}
       <span className="flex">
         <span className="hidden max-lg:flex">
@@ -66,7 +66,7 @@ export default function Nav({ theme, nav_burger_color_css }) {
         </ul>
       </span>
       {/*right side*/}
-      <span className="flex max-sm:hidden mr-5">
+      <span className="flex max-sm:hidden">
         <ul className="flex gap-5 p-3 uppercase text-xs optima-bold tracking-widest">
           <li>
             <span className="p-1 inline-block lang-link">

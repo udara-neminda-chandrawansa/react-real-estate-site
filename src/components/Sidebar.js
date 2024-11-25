@@ -16,7 +16,7 @@ export default function Sidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/about">
+          <Link href="/latest">
             <p className="p-1 border-t-[1px] border-t-gray-300 flex">
               Latest Launches
             </p>

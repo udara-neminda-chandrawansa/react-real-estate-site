@@ -59,7 +59,7 @@ export default function LatestLaunches() {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex w-full">
         <Sidebar></Sidebar>
         <div className="flex flex-col w-full h-full">
           {/*nav*/}
