@@ -63,11 +63,11 @@ export default function About() {
   return (
     <>
       {/*banner + nav*/}
-      <div className="text-black flex h-[90vh] w-[100vw]">
+      <div className="text-black flex h-[90vh] w-full">
         <Sidebar></Sidebar>
         <div className="flex flex-col h-fit">
           {/*nav*/}
-          <span className="p-1">
+          <span className="py-1">
             <Nav theme={"dark"}></Nav>
           </span>
           {/*banner (img + overview text)*/}

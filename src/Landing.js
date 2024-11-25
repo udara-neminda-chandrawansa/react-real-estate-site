@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 export default function Landing({changeActivePage}) {  
   return (
     <>
-      <div className="flex flex-row h-[100vh] w-[100vw] bg-blue-400">
+      <div className="flex flex-row h-[100vh] w-full bg-blue-400">
         <Sidebar changeActivePage = {changeActivePage}/>
         <Banner changeActivePage = {changeActivePage}/>
       </div>

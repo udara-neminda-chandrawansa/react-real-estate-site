@@ -61,9 +61,9 @@ export default function LatestLaunches() {
     <>
       <div className="flex w-full">
         <Sidebar></Sidebar>
-        <div className="flex flex-col w-full h-full">
+        <div className="flex flex-col w-[100dvw] h-full">
           {/*nav*/}
-          <div className="p-1 border-b-[1px] border-b-gray-300">
+          <div className="py-1 border-b-[1px] border-b-gray-300">
             <Nav theme={"dark"}></Nav>
           </div>
           {/*title + text + filter btns*/}
